@@ -29,7 +29,7 @@ bot.addListener("message", function(from, to, text, message) {
 });
 
 //api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}
-//451c1a38bd1cf2b83fc3eda0491dd46a
+
 
 async function getit(){
     const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?zip=34688,US&appid=${apikey}`)
